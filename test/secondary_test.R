@@ -35,6 +35,7 @@ tmp2=merge(tmp1,g2s,by='gene_id')
 
 ### 作业 2
 #根据R包`hgu133a.db`找到下面探针对应的基因名(symbol)
+```
 1053_at
 117_at
 121_at
@@ -50,7 +51,7 @@ tmp2=merge(tmp1,g2s,by='gene_id')
 160020_at
 1729_at
 177_at
-
+```
 rm(list = ls())
 options(stringsAsFactors = F)
 # 将探针保存为txt，命名为e2，并读取
